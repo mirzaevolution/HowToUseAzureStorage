@@ -41,6 +41,7 @@ namespace BlockBlob1
                 CloudBlobContainer container = _cloudBlobClient.GetContainerReference(containerName);
                 if (await container.ExistsAsync())
                 {
+                    
                     foreach(CloudBlob blob in container.ListBlobs(blobListingDetails: BlobListingDetails.All,useFlatBlobListing:true))
                     {
                         blob.FetchAttributes();

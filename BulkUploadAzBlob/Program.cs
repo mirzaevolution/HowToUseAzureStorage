@@ -115,6 +115,17 @@ namespace BulkUploadAzBlob
                 {
                     blob.PutBlockList(ids);
                     Console.WriteLine("Blob uploaded successfully!");
+                    blob.Metadata.Add(new KeyValuePair<string, string>("author", Environment.UserName));
+                    blob.Metadata.Add(new KeyValuePair<string,string>("creationTimeUtc", DateTime.UtcNow.ToShortDateString()));
+                    try
+                    {
+                        blob.SetMetadataAsync().Wait();
+                    }
+                    catch(Exception ex)
+                    {
+                        Console.WriteLine("\nError while setting up metadata");
+                        Console.WriteLine(ex);
+                    }
                 }
                 
             }
