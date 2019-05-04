@@ -1,0 +1,92 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Azure Files", "Azure Files", "{592996E1-D7D6-4B81-80F5-5412BC248D93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectToAzureFileStorage", "ConnectToAzureFileStorage\ConnectToAzureFileStorage.csproj", "{8FFAA4A8-45DB-48C9-9E8A-A511DC59C373}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectToAzureFSUsingConnectionString", "ConnectToAzureFSUsingConnectionString\ConnectToAzureFSUsingConnectionString.csproj", "{6720D53D-F465-4537-8A4A-01781F5A6EF2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Azure Queues", "Azure Queues", "{D223FCEA-B577-4C0D-B85A-F69C2863E9E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddingAndRetrievingMetadata", "AddingAndRetrievingMetadata\AddingAndRetrievingMetadata.csproj", "{48D0374E-0EF1-4DA7-A94F-DC49578EC76C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueAADAuthentication", "QueueAADAuthentication\QueueAADAuthentication.csproj", "{90C5D1B1-CAF1-426C-A102-8ED6364EC61B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Azure Blobs", "Azure Blobs", "{F8FEACC1-6D68-4806-9EC1-6D437163D656}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppendBlob1", "AppendBlob1\AppendBlob1.csproj", "{B922C43A-A0FC-4B61-B318-FC3E44AE20CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlockBlob1", "BlockBlob1\BlockBlob1.csproj", "{82AFEF23-A352-4AB1-9B32-A36D835BD329}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlobLeasing", "BlobLeasing\BlobLeasing.csproj", "{88EE7AA7-0DF5-46C4-9360-4F154DE99A49}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Azure Tables", "Azure Tables", "{D6DBAF61-1C71-4530-A6EE-D5FB7177F91D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureTableOperations", "AzureTableOperations\AzureTableOperations.csproj", "{E7622920-10AD-4CC6-9B4F-3373F8A56392}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BulkUploadAzBlob", "BulkUploadAzBlob\BulkUploadAzBlob.csproj", "{59E2BED1-256A-42CE-9E60-D88DDCE14FE4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FFAA4A8-45DB-48C9-9E8A-A511DC59C373}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FFAA4A8-45DB-48C9-9E8A-A511DC59C373}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FFAA4A8-45DB-48C9-9E8A-A511DC59C373}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FFAA4A8-45DB-48C9-9E8A-A511DC59C373}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6720D53D-F465-4537-8A4A-01781F5A6EF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6720D53D-F465-4537-8A4A-01781F5A6EF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6720D53D-F465-4537-8A4A-01781F5A6EF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6720D53D-F465-4537-8A4A-01781F5A6EF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48D0374E-0EF1-4DA7-A94F-DC49578EC76C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48D0374E-0EF1-4DA7-A94F-DC49578EC76C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48D0374E-0EF1-4DA7-A94F-DC49578EC76C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48D0374E-0EF1-4DA7-A94F-DC49578EC76C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90C5D1B1-CAF1-426C-A102-8ED6364EC61B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90C5D1B1-CAF1-426C-A102-8ED6364EC61B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90C5D1B1-CAF1-426C-A102-8ED6364EC61B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90C5D1B1-CAF1-426C-A102-8ED6364EC61B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B922C43A-A0FC-4B61-B318-FC3E44AE20CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B922C43A-A0FC-4B61-B318-FC3E44AE20CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B922C43A-A0FC-4B61-B318-FC3E44AE20CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B922C43A-A0FC-4B61-B318-FC3E44AE20CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82AFEF23-A352-4AB1-9B32-A36D835BD329}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82AFEF23-A352-4AB1-9B32-A36D835BD329}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82AFEF23-A352-4AB1-9B32-A36D835BD329}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82AFEF23-A352-4AB1-9B32-A36D835BD329}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88EE7AA7-0DF5-46C4-9360-4F154DE99A49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88EE7AA7-0DF5-46C4-9360-4F154DE99A49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88EE7AA7-0DF5-46C4-9360-4F154DE99A49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88EE7AA7-0DF5-46C4-9360-4F154DE99A49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7622920-10AD-4CC6-9B4F-3373F8A56392}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7622920-10AD-4CC6-9B4F-3373F8A56392}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7622920-10AD-4CC6-9B4F-3373F8A56392}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7622920-10AD-4CC6-9B4F-3373F8A56392}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59E2BED1-256A-42CE-9E60-D88DDCE14FE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59E2BED1-256A-42CE-9E60-D88DDCE14FE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59E2BED1-256A-42CE-9E60-D88DDCE14FE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59E2BED1-256A-42CE-9E60-D88DDCE14FE4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8FFAA4A8-45DB-48C9-9E8A-A511DC59C373} = {592996E1-D7D6-4B81-80F5-5412BC248D93}
+		{6720D53D-F465-4537-8A4A-01781F5A6EF2} = {592996E1-D7D6-4B81-80F5-5412BC248D93}
+		{48D0374E-0EF1-4DA7-A94F-DC49578EC76C} = {D223FCEA-B577-4C0D-B85A-F69C2863E9E1}
+		{90C5D1B1-CAF1-426C-A102-8ED6364EC61B} = {D223FCEA-B577-4C0D-B85A-F69C2863E9E1}
+		{B922C43A-A0FC-4B61-B318-FC3E44AE20CB} = {F8FEACC1-6D68-4806-9EC1-6D437163D656}
+		{82AFEF23-A352-4AB1-9B32-A36D835BD329} = {F8FEACC1-6D68-4806-9EC1-6D437163D656}
+		{88EE7AA7-0DF5-46C4-9360-4F154DE99A49} = {F8FEACC1-6D68-4806-9EC1-6D437163D656}
+		{E7622920-10AD-4CC6-9B4F-3373F8A56392} = {D6DBAF61-1C71-4530-A6EE-D5FB7177F91D}
+		{59E2BED1-256A-42CE-9E60-D88DDCE14FE4} = {F8FEACC1-6D68-4806-9EC1-6D437163D656}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {434F68E3-7139-4D00-B6A2-F8077E1483F0}
+	EndGlobalSection
+EndGlobal
